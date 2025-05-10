@@ -3446,6 +3446,7 @@ ul.blog_pagination li a:hover {
 
 .scroller__inner img {
     margin-right: 30px;
+    aspect-ratio: 1;
 }
 
 .scroller[data-animated="true"] {
