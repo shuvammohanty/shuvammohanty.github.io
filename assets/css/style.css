@@ -3403,7 +3403,18 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
-
+.hiSvg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: #000; */
+    height: 85%;
+}
+.hiSvg svg#hiSVG{
+    width: 100%;
+    height: 10rem;
+    scale: 1.8;
+}
 
 
 
@@ -3447,6 +3458,19 @@ ul.blog_pagination li a:hover {
 .scroller__inner img {
     margin-right: 30px;
     aspect-ratio: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: .5rem;
+}
+
+.skillsrow{
+    align-items: stretch !important;
+    /* display: flex; */
+    /* height: max-content; */
+}
+.skillsrow > div > div{
+    min-height: 30rem;
+    box-shadow: #b9b9b9 0 0 30px 2px;
 }
 
 .scroller[data-animated="true"] {
