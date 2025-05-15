@@ -3410,10 +3410,19 @@ ul.blog_pagination li a:hover {
     /* background-color: #000; */
     height: 85%;
 }
-.hiSvg svg#hiSVG{
+.hiSvg svg#hiSVG, .hiSvg video{
     width: 100%;
-    height: 10rem;
+    height: 15rem;
     scale: 1.8;
+}
+
+.socioLinks{
+    color: #fff;
+    text-decoration: underline;
+}
+.socioLinks:hover{
+    color: #888888;
+    text-decoration: underline;
 }
 
 
@@ -3521,4 +3530,14 @@ ul.blog_pagination li a:hover {
         -webkit-transform: translate(calc(-50% - 0.5rem));
         transform: translate(calc(-50% - 0.5rem));
     }
+}
+body, html {
+    overflow-x: hidden;
+    width:100vw;
+}
+
+.testimonial-item .text{
+    max-lines: 7;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
 }
